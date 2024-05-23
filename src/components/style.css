@@ -1,0 +1,68 @@
+#cardHome{
+    display: flex;
+    border-radius: 5px;
+    border: solid 2px;
+    border-color: #E9DFDF;
+    background-color: "white";
+    margin: 5px 5px 5px 5px;
+    width: 200px;
+    height: 250px;
+    flex-direction: column;
+}
+
+#idImage {
+    overflow: hidden;
+    height: auto;
+    object-fit: cover;
+}
+
+#textCard {
+    margin: 15px 5px 5px 5px;
+    line-height: 0.9em;
+}
+
+#textCard .titleCard{
+    font-family: 'Roboto';
+    font-size: 12pt;
+    font-weight:600;
+}
+
+#textCard .descriptCard{
+    font-family: 'Roboto';
+    font-size: 10pt;
+}
+
+#textCard .priceCard{
+    font-family: 'Roboto';
+    font-size: 11pt;
+    font-weight: 700;
+}
+
+#textCard .conditionCard{
+    font-family: 'Roboto';
+    font-size: 10pt;
+}
+
+footer {
+    height: 100px;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    font-size: small;
+    text-align: center;
+    align-content: center;
+}
+
+.panel {
+    width: 510px;
+    height: 261px;
+    background-color:#EBF1F2;
+    border-radius: 5px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
